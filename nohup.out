@@ -1,0 +1,8 @@
+ * Restarting nginx nginx
+   ...done.
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [17/Mar/2017 02:09:29] "GET /records/1 HTTP/1.0" 200 -
+127.0.0.1 - - [17/Mar/2017 02:09:33] "GET /search?q=ellis HTTP/1.0" 200 -
+127.0.0.1 - - [17/Mar/2017 02:09:34] "GET /api/records/?page=1&q=ellis&size=20 HTTP/1.0" 200 -
+127.0.0.1 - - [17/Mar/2017 02:09:37] "GET /api/records/?affiliation=aachen&page=1&q=ellis&size=20 HTTP/1.0" 200 -
+127.0.0.1 - - [17/Mar/2017 02:09:47] "GET /oai2d?ver=Identify HTTP/1.0" 422 -
